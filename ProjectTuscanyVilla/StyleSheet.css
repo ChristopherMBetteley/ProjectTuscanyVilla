@@ -1,0 +1,822 @@
+﻿body {
+    background-color:lightgrey;
+}
+#logoBar{
+    text-align:center;
+    background-color:#cbcecc;
+    padding:2em;
+    padding-top:.25em;
+}
+#logoBar h1{
+    font-size-adjust:1.5;
+}
+#design{
+    font-family: 'Allura', cursive;
+    font-size:4em;
+    margin-top:-5px;
+    color:#646464;
+}
+#homepage{
+    margin-bottom:-5px;
+    font-stretch:extra-expanded;
+    font-weight:600;
+    color:#646464;
+}
+.navbar-header{
+    background-color:#67d0bf;
+    color:white;
+    padding:1em;
+    font-size:1em;
+}
+#brand{
+    margin-bottom:0em;
+}
+#rightoption{
+    margin-bottom:0em;
+}
+#brand a{
+    background-color:#67d0bf;
+    color:white;
+}
+#rightoption a{
+    background-color:#67d0bf;
+    color:white;
+}
+#menubar a{
+    background-color:white;
+    color:darkgrey;
+    border-color:darkgrey;
+}
+#myNavbar{
+    background-color:white;
+    color:darkgrey;
+    border-color:darkgrey;
+    text-align:center;
+}
+#menu{
+    background-color:white;
+    color:darkgrey;
+    margin:0em;
+    
+}
+#menubrand{
+    background-color:#67d0bf;
+    color:white;
+    
+}
+#prop{
+    background-color:#67d0bf;
+    color:white;
+    
+}
+.navbar{
+    margin:0em;
+}
+.icon-bar{
+    color:darkgrey;
+    border:solid;
+    border-width:thin;
+}
+.navbar-toggle{
+    color:darkgrey;
+    border:solid;
+    margin:0em;
+}
+.navbar-nav{
+    float:none;
+}
+
+/*Line1*/
+#pic1 {
+        background-color: rgba(100,100,100,.8);
+        color:white;
+        vertical-align:middle;
+        font-size:5em;
+        padding:0px;
+        margin:0px;
+}
+#pic1box {
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+#pic1jumbo{
+    background-color:transparent;
+}
+#pic1btn{
+    padding:3px;
+    margin-top:-5px;
+    border-color:#67d0bf;
+    background-color:#67d0bf;
+    background-image: linear-gradient(to bottom,#67d0bf 0,#67d0bf 100%);
+}
+#pic1text{
+    width:25em;
+    text-align:right;
+    font-family: 'Coda', cursive;
+    
+}
+#pic1jumbo h1{
+    padding:2em;
+    padding-bottom:.5em;
+    margin-top:4em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+    font-size:2em;
+}
+#pic1jumbo p{
+    padding:2em;
+    padding-top:.5em;
+    font-size:1.5em;
+    text-align:center;
+}
+
+#pic2 {
+        background-color:white;
+        color:#646464;
+        vertical-align:middle;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+}
+#pic2box {
+    background-image: url('Images/Versilia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+#pic2jumbo{
+    background-color:transparent;
+}
+#pic2btn{
+    padding:3px;
+    margin-top:-5px;
+    border-color:#67d0bf;
+    background-color:#67d0bf;
+    background-image: linear-gradient(to bottom,#67d0bf 0,#67d0bf 100%);
+}
+#pic2text{
+    width:12em;
+    text-align:right;
+    font-family: 'Coda', cursive;
+}
+#pic2jumbo h1{
+    padding:2em;
+    padding-bottom:.5em;
+    margin-top:15em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic2jumbo p{
+    padding:2em;
+    padding-top:.5em;
+    font-size:smaller;
+    text-align:center;
+}
+
+/*Line2*/
+#pic3 {
+        background-color:white;
+        color:#646464;
+        vertical-align:middle;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+}
+#pic3box {
+    background-color:white;
+    background-size: cover;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+#pic3jumbo{
+    background-color:transparent;
+    padding:1em;
+}
+#pic3btn{
+    padding:3px;
+    padding-top:0px;
+    border-color:white;
+    background-color:white;
+    background-image: linear-gradient(to bottom,white 0,white 100%);
+    color:grey;
+    text-align:right;
+    float:right;
+}
+#pic3text{
+    width:12em;
+    text-align:center;
+    font-family: 'Coda', cursive;
+    
+}
+h1#pic3{
+    padding:0em;
+    padding-bottom:.5em;
+    margin-top:1em;
+    font-weight:700;
+    text-align:center;
+    color: #67d0bf;
+    font-size:1.75em;
+
+}
+p#pic3{
+    padding:2em;
+    padding-bottom:0em;
+    padding-top:.5em;
+    font-size:1.5em;
+    text-align:center;
+    color:#646464;
+
+}
+
+#pic4{
+        background-color: rgba(100,100,100,.8);
+        color:white;
+        vertical-align:middle;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+        float:none;
+}
+#pic4box {
+    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+#pic4jumbo{
+    background-color:transparent;
+    padding-left:3em;
+    position:center;
+    padding-right:3em;
+}
+#pic4text{
+    width:10em;
+    text-align:right;
+    font-family: 'Coda', cursive;
+}
+#pic4jumbo h1{
+    padding:2em;
+    padding-bottom:.5em;
+    margin-top:1em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic4jumbo p{
+    padding:2em;
+    padding-top:.5em;
+    font-size:smaller;
+    text-align:center;
+}
+
+#pic5{
+        background-color: rgba(100,100,100,.8);
+        color:white;
+        vertical-align:middle;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+        float:none;
+}
+#pic5box {
+    background-image: url('Images/L-Tuscany Oversize.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+#pic5jumbo{
+    background-color:transparent;
+    padding-left:3em;
+    position:center;
+    padding-right:3em;
+}
+#pic5text{
+    width:10em;
+    text-align:right;
+    font-family: 'Coda', cursive;
+}
+#pic5jumbo h1{
+    padding:2em;
+    padding-bottom:.5em;
+    margin-top:1em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic5jumbo p{
+    padding:2em;
+    padding-top:.5em;
+    font-size:smaller;
+    text-align:center;
+}
+
+#pic6{
+        background-color: rgba(100,100,100,.8);
+        color:white;
+        vertical-align:middle;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+        float:none;
+}
+#pic6box {
+    background-image: url('Images/tuscan-home9_xTqXd_24702.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+#pic6jumbo{
+    background-color:transparent;
+    padding-left:3em;
+    position:center;
+    padding-right:3em;
+}
+#pic6text{
+    width:10em;
+    text-align:right;
+    font-family: 'Coda', cursive;
+}
+#pic6jumbo h1{
+    padding:2em;
+    padding-bottom:.5em;
+    margin-top:1em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic6jumbo p{
+    padding:2em;
+    padding-top:.5em;
+    font-size:smaller;
+    text-align:center;
+}
+
+/*Line3*/
+#pic7 {
+        background-color:white;
+        color:#646464;
+        vertical-align:middle;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+}
+#pic7box {
+    background-image: url('Images/Wall0173.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    padding-top:15em;
+    border: solid lightgrey medium;
+}
+#pic7jumbo{
+    background-color:transparent;
+    padding:1em;
+}
+#pic7btn{
+    padding:3px;
+    padding-top:0px;
+    border-color:white;
+    background-color:white;
+    background-image: linear-gradient(to bottom,white 0,white 100%);
+    color:grey;
+    text-align:right;
+    float:right;
+}
+#pic7text{
+    width:12em;
+    text-align:center;
+    font-family: 'Coda', cursive;
+    
+}
+h1#pic7{
+    padding:0em;
+    padding-bottom:.5em;
+    margin-top:1em;
+    font-weight:700;
+    text-align:center;
+    color: #67d0bf;
+    font-size:1.75em;
+
+}
+p#pic7{
+    padding:2em;
+    padding-bottom:0em;
+    padding-top:.5em;
+    font-size:1.5em;
+    text-align:center;
+    color:#646464;
+
+}
+
+#pic8{
+        background-color: white;
+        color:#646464;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+}
+#pic8box {
+    background-color:white;
+    background-size: cover;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+#pic8jumbo{
+    background-color:transparent;
+    padding-left:1em;
+    position:center;
+    padding-right:1em;
+    text-align:center;
+}
+#pic8text{
+    width:10em;
+    text-align:center;
+    font-family: 'Coda', cursive;
+}
+#pic8btn{
+    padding:3px;
+    padding-top:0px;
+    border-color:#67d0bf;
+    background-color:white;
+    background-image: linear-gradient(to bottom,white 0,white 100%);
+    color:#67d0bf;
+}
+#pic8jumbo h1{
+    padding:2em;
+    padding-bottom:.5em;
+    padding-top:1em;
+    margin-top:.5em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic8jumbo p{
+    padding:2em;
+    padding-top:.5em;
+    font-size:smaller;
+    text-align:center;
+}
+
+#pic9{
+        background-color: rgba(100,100,100,.8);
+        color:white;
+        vertical-align:middle;
+        font-size:smaller;
+        padding:.5em;
+        margin:0px;
+        float:none;
+}
+#pic9box {
+    background-image: url('Images/fb17b6ef0602b1e1a19dae88ae434476.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    padding-top:15em;
+    border: solid lightgrey medium;
+}
+#pic9jumbo{
+    background-color:transparent;
+    position:center;
+    padding:.5em;
+    margin:0em;
+}
+#pic9text{
+    width:10em;
+    text-align:right;
+    font-family: 'Coda', cursive;
+}
+#pic9jumbo h1{
+    padding:0em;
+    margin:0em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic9jumbo p{
+    padding:0em;
+    margin:0em;
+    font-size:smaller;
+    text-align:center;
+}
+#row9{
+    padding:.5em;
+    margin:0em;
+    background-color: rgba(100,100,100,.8);
+}
+
+#pic10{
+        background-color: white;
+        color:#646464;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+}
+#pic10box {
+    background-color:white;
+    background-size: cover;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+#pic10jumbo{
+    background-color:transparent;
+    padding-left:1em;
+    position:center;
+    padding-right:1em;
+    text-align:center;
+    padding-top:1em;
+}
+#pic10text{
+    width:10em;
+    text-align:center;
+    font-family: 'Coda', cursive;
+}
+#pic10btn{
+    padding:3px;
+    padding-top:0px;
+    border-color:#67d0bf;
+    background-color:white;
+    background-image: linear-gradient(to bottom,white 0,white 100%);
+    color:#67d0bf;
+    text-align:center;
+}
+#pic10jumbo h1{
+    padding:2em;
+    padding-bottom:.5em;
+    padding-top:1em;
+    margin-top:.5em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic10jumbo p{
+    padding:2em;
+    padding-top:.5em;
+    font-size:smaller;
+    text-align:center;
+}
+
+/*Line4*/
+#pic11{
+        background-color: white;
+        color:#646464;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+}
+#pic11box {
+    background-color:white;
+    background-size: cover;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    
+    border: solid lightgrey medium;
+}
+#pic11jumbo{
+    background-color:transparent;
+    padding-left:1em;
+    position:center;
+    padding-right:1em;
+    text-align:center;
+    padding-top:1em;
+}
+#pic11text{
+    width:10em;
+    text-align:center;
+    font-family: 'Coda', cursive;
+}
+#pic11btn{
+    padding:3px;
+    padding-top:0px;
+    border-color:#67d0bf;
+    background-color:white;
+    background-image: linear-gradient(to bottom,white 0,white 100%);
+    color:#67d0bf;
+    text-align:center;
+}
+#pic11jumbo h1{
+    padding:2em;
+    padding-bottom:.5em;
+    padding-top:1em;
+    margin-top:.5em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic11jumbo p{
+    padding:2em;
+    padding-top:.5em;
+    font-size:smaller;
+    text-align:center;
+}
+
+#pic12{
+        background-color: rgba(100,100,100,.8);
+        color:white;
+        vertical-align:middle;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+        float:none;
+}
+#pic12box {
+    background-image: url('Images/4b33071e52f5d11cd44ab1b127733386.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    padding-top:15em;
+    border: solid lightgrey medium;
+}
+#pic12jumbo{
+    background-color:transparent;
+    padding-left:3em;
+    position:center;
+    padding-right:3em;
+}
+#pic12text{
+    width:10em;
+    text-align:right;
+    font-family: 'Coda', cursive;
+}
+#pic12jumbo h1{
+    padding:2em;
+    padding-bottom:.5em;
+    margin-top:1em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic12jumbo p{
+    padding:2em;
+    padding-top:.5em;
+    font-size:smaller;
+    text-align:center;
+}
+
+#pic13{
+        background-color: rgba(100,100,100,.8);
+        color:white;
+        vertical-align:middle;
+        font-size:smaller;
+        padding:0px;
+        margin:0px;
+        float:none;
+}
+#pic13box {
+    background-color: #67d0bf;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+#pic13btn{
+    padding:3px;
+    padding-top:0px;
+    border-color:#646464;
+    background-color:#67d0bf;
+    background-image: linear-gradient(to bottom,#67d0bf 0,#67d0bf 100%);
+    color:#646464;
+
+}
+#pic13jumbo{
+    background-color:transparent;
+    padding:1em;
+    position:center;
+    border:solid;
+    border-color:#646464;
+    border-width:thin;
+    text-align:center;
+}
+#pic13jumbosm{
+     background-color:transparent;
+    padding:.2em;
+    position:center;
+    border:solid;
+    border-color:#646464;
+    border-width:thin;
+    margin:0em;
+}
+#pic13text{
+    width:10em;
+    text-align:right;
+    font-family: 'Coda', cursive;
+    color:white;
+}
+#pic13jumbo h1{
+    background-color:transparent;
+    padding:0em;
+    padding-bottom:0em;
+    margin:0em;
+    font-size:4em;
+    font-weight:700;
+    text-align:center;
+}
+#pic13jumbo h2{
+    background-color:transparent;
+    padding:0em;
+    margin-top:0em;
+    font-size:small;
+    font-weight:700;
+    text-align:center;
+}
+#pic13jumbo p{
+    background-color:transparent;
+    margin:0em;
+    padding:0em;
+    padding-top:0em;
+    font-size:1.75em;
+    font-weight:bolder;
+    text-align:center;
+}
+#pic13jumbosm a{
+    align-content:center;
+}
+
+#pic14box {
+    background-image: url('Images/box_partners.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:white;
+    height: 20em;
+    margin: 0em;
+    padding: 0px;
+    border: solid lightgrey medium;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+float:right;
+}
+
+#developer{
+    text-align:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#jumbo{
+    font-weight:bolder;
+    color:white;
+}
+
